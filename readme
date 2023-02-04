@@ -1,0 +1,28 @@
+#  steps:
+#   npm init
+# We need to install a few dependencies now.
+
+# npm i express mongoose nodemon dotenv
+# Here,
+
+# Express will be used for the middleware to create various CRUD endpoints.
+# Mongoose for managing data in MongoDB using various queries.
+# Nodemon to restart our server every time we save our file.
+# Dotenv to manage a .env file.
+
+
+# add
+# "start": "nodemon index.js"
+
+# This means that we can start our server using npm start, and it will run using the Nodemon package that we previously installed.
+
+# Now, let's configure the mongoDB Database.
+
+# It will take some time for our cluster to finish, so let's wait. Meanwhile, create a file called .env in the project folder.
+
+
+
+
+
+
+# for reference : https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb/
